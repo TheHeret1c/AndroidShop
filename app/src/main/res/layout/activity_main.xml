@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewApple"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/apple" />
+
+        <CheckBox
+            android:id="@+id/chkBoxApple"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/chkboxApple" />
+
+        <EditText
+            android:id="@+id/editTextApple"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/editTextPriceApple"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewStrawberry"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/strawberry" />
+
+        <CheckBox
+            android:id="@+id/chkBoxStrawberry"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/chkboxStrawberry" />
+
+        <EditText
+            android:id="@+id/editTextStrawberry"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/editTextPriceStrawberry"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewBanana"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/banana" />
+
+        <CheckBox
+            android:id="@+id/chkBoxBanana"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/chkboxBanana" />
+
+        <EditText
+            android:id="@+id/editTextBanana"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/editTextPriceBanana"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewCheese"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/cheese" />
+
+        <CheckBox
+            android:id="@+id/chkBoxCheese"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/chkboxCheese" />
+
+        <EditText
+            android:id="@+id/editTextCheese"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/editTextPriceCheese"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/rbDialog" />
+
+            <RadioButton
+                android:id="@+id/rbToast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rbToast" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="Calculate"
+            android:text="@string/btnCalc" />
+    </LinearLayout>
+
+</LinearLayout>

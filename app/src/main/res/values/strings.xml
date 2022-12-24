@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Shop</string>
+    <string name="chkboxApple">Apple</string>
+    <string name="chkboxStrawberry">Strawberry</string>
+    <string name="chkboxBanana">Banana</string>
+    <string name="chkboxCheese">Cheese</string>
+    <string name="rbDialog">Dialog</string>
+    <string name="rbToast">Toast</string>
+    <string name="btnCalc">Calculate</string>
+</resources>
